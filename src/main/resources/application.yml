@@ -4,3 +4,7 @@ spring:
       host: localhost
       port: 27017 # mongo db 기본 포트
       database: chatdb
+
+openai:
+  api:
+    key: ${OPENAI_API_KEY}
